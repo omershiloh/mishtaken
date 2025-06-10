@@ -2,6 +2,7 @@
   "name": "mishtaken",
   "version": "1.0.0",
   "scripts": {
+    "postinstall": "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
     "start": "node index.js"
   },
   "dependencies": {
